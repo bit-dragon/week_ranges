@@ -1,6 +1,6 @@
 # Tzolkin
 
-TODO: Write a gem description
+Gem to generate small description of range of weekdays like Monday to Friday, Monday and Tuesday or Monday, Thurday, Sunday
 
 ## Installation
 
