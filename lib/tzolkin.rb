@@ -1,21 +1,14 @@
 require "tzolkin/version"
+require 'date'
 
 module Tzolkin
 	class Days
 		attr_reader :days
 
-		def initialize args
+		def initialize
 			@days = {}
-			if args.instance_of? Hash
-				@days[:day1], @days[:day2], @days[:day3] = args[:day1], args[:day2], args[:day3]
-				@days[:day4], @days[:day5], @days[:day6] = args[:day4], args[:day5], args[:day6]
-				@days[:day7] = args[:day7]
-				@days.delete_if { |k, v| v.empty? }
-				raise "Wrong number of arguments" unless @days.size == 7
-			else args.instance_of? Array
-				raise "Wrong number of arguments" unless args.size == 7
-				args.each_index { |index| @days["day#{index}"] = args[index] }
-			end
+      tmp_days = Date::DAYNAMES
+			tmp_days.each_index { |index| @days["day#{index + 1}".to_sym] = tmp_days[index] }
 		end
 
 		def shortcuts_for(days)
@@ -66,18 +59,18 @@ module Tzolkin
 		end
 
 		def abbr_string_with_and_for(days)
-			"#{days.first.chars.first.capitalize} & #{days.last.chars.first.capitalize}"
+			"#{days.first[0..2].capitalize} & #{days.last[0..2].capitalize}"
 		end
 
 		def abbr_string_with_each_days_for(days)
 			word = ""
-			days.collect { |day| (word += "#{day.chars.first.capitalize}, " unless (days.last == day)) }
-			word << "#{days.last.chars.first.capitalize}"
+			days.collect { |day| (word += "#{day[0..2].capitalize}, " unless (days.last == day)) }
+			word << "#{days.last[0..2].capitalize}"
 		end
 
 		def abbr_string_with_range(days)
 			range = first_and_end_keys_of days
-			"#{@days["day#{range.first}".to_sym].chars.first.capitalize} - #{@days["day#{range.last}".to_sym].chars.first.capitalize}"
+			"#{@days["day#{range.first}".to_sym][0..2].capitalize} - #{@days["day#{range.last}".to_sym][0..2].capitalize}"
 		end
 
 		def first_and_end_keys_of(days)
@@ -92,3 +85,4 @@ module Tzolkin
 
 	end
 end
+

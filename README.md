@@ -18,22 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
-Initialize with an array of 7 days
+Create a new Tzolkin::Days object
 
-		$ @days = Tzolkin::Days.new(day1: 'Monday', day2: 'Tuesday', day3: 'Wednesday', day4: 'Thursday', day5: 'Friday', day6: 'Saturday', day7: 'Sunday')
-
-Select the days that you want to know his range
+		$ @days = Tzolkin::Days.new
+		
+Select the days that you want to know his shortcut range. The day start with **:day1 => 'Sunday'** and end with **:day7 => Saturday**
 
 		$ selected_days = []
-		$ selected_days << @days.days[:day1]
 		$ selected_days << @days.days[:day2]
+		$ selected_days << @days.days[:day3]
 
 Then you can use 'shortcuts_for' and 'small_shortcuts_for' with the selected days
 		
 		$ @days.shortcuts_for selected_days
 		$ => Monday and Tuesday
 		$ @days.small_shortcuts_for selected_days
-		$ => M & T
+		$ => Mon & Tue
 
 ## Contributing
 
