@@ -1,0 +1,80 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+es:
+  dates:
+    Sunday:
+    Monday:
+    Tuesday:
+    Wednesday:
+    Thursday:
+    Friday:
+    Saturday:
+    shortcuts:
+      'Sunday to Monday':
+      'Sunday to Tuesday':
+      'Sunday to Wednesday':
+      'Sunday to Thursday':
+      'Sunday to Friday':
+      'Sunday to Saturday':
+      'Sunday to Sunday':
+
+      'Saturday to Tuesday':
+      'Saturday to Wednesday':
+      'Saturday to Thursday':
+      'Saturday to Friday':
+
+      'Monday to Wednesday':
+      'Monday to Thursday':
+      'Monday to Friday':
+
+      'Tuesday to Thursday':
+      'Tuesday to Friday':
+
+      'Sunday and Saturday':
+      'Satuday and Monday':
+      'Monday and Tuesday':
+      'Tuesday and Wednesday':
+      'Wednesday and Thursday':
+      'Thursday and Friday':
+
+      'Sunday, Saturday, Monday, Tuesday, Wednesday, Thursday, Friday':
+      'Sunday, Saturday, Monday, Tuesday, Wednesday, Thursday':
+      'Sunday, Saturday, Monday, Tuesday, Wednesday':
+      'Sunday, Saturday, Monday, Tuesday':
+      'Sunday, Saturday, Monday':
+    
+    abbr_shortcuts:
+      'Sun - Mon':
+      'Sun - Tue':
+      'Sun - Wed':
+      'Sun - Thu':
+      'Sun - Fri':
+      'Sun - Sat':
+      'Sun - Sun':
+
+      'Sat - Tue':
+      'Sat - Wed':
+      'Sat - Thu':
+      'Sat - Fri':
+
+      'Mon - Wed':
+      'Mon - Thu':
+      'Mon - Fri':
+
+      'Tue - Thu':
+      'Tue - Fri':
+
+      'Sun & Sat':
+      'Sat & Mon':
+      'Mon & Tue':
+      'Tue & Wed':
+      'Wed & Thu':
+      'Thu & Fri':
+
+      'Sun, Sat, Mon, Tue, Wed, Thu, Fri':
+      'Sun, Sat, Mon, Tue, Wed, Thu':
+      'Sun, Sat, Mon, Tue, Wed':
+      'Sun, Sat, Mon, Tue':
+      'Sun, Sat, Mon':
+

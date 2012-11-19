@@ -1,0 +1,77 @@
+es:
+  dates:
+    Sunday: 'Domingo'
+    Monday: 'Lunes'
+    Tuesday: 'Martes'
+    Wednesday: 'Miercoles'
+    Thursday: 'Jueves'
+    Friday: 'Viernes'
+    Saturday: 'Sábado'
+    shortcuts:
+      'Sunday to Monday': 'Domingo a Lunes'
+      'Sunday to Tuesday': 'Domingo a Martes'
+      'Sunday to Wednesday': 'Domingo a Miercoles'
+      'Sunday to Thursday': 'Domingo a Jueves'
+      'Sunday to Friday': 'Domingo a Viernes'
+      'Sunday to Saturday': 'Domingo a Sábado'
+      'Sunday to Sunday': 'Domingo a Domingo'
+
+      'Saturday to Tuesday': 'Sábado a Martes'
+      'Saturday to Wednesday': 'Sábado a Miercoles'
+      'Saturday to Thursday': 'Sábado a Jueves'
+      'Saturday to Friday': 'Sábado a Viernes'
+
+      'Monday to Wednesday': 'Lunes a Miercoles'
+      'Monday to Thursday': 'Lunes a Jueves'
+      'Monday to Friday': 'Lunes a Viernes'
+
+      'Tuesday to Thursday': 'Lunes a Jueves'
+      'Tuesday to Friday': 'Lunes a Viernes'
+
+      'Sunday and Saturday': 'Domingo y Sábado'
+      'Satuday and Monday': 'Sábado y Lunes'
+      'Monday and Tuesday': 'Lunes y Martes'
+      'Tuesday and Wednesday': 'Martes y Miercoles'
+      'Wednesday and Thursday': 'Miercoles y Jueves'
+      'Thursday and Friday': 'Jueves y Viernes'
+
+      'Sunday, Saturday, Monday, Tuesday, Wednesday, Thursday, Friday': 'Domingo, Sábado, Lunes, Martes, Miercoles, Jueves, Viernes'
+      'Sunday, Saturday, Monday, Tuesday, Wednesday, Thursday': 'Domingo, Sábado, Lunes, Martes, Miercoles, Jueves'
+      'Sunday, Saturday, Monday, Tuesday, Wednesday': 'Domingo, Sábado, Lunes, Martes, Miercoles'
+      'Sunday, Saturday, Monday, Tuesday': 'Domingo, Sábado, Lunes, Martes'
+      'Sunday, Saturday, Monday': 'Domingo, Sábado, Lunes'
+    
+    abbr_shortcuts:
+      'Sun - Mon': 'Dom - Lun'
+      'Sun - Tue': 'Dom - Mar'
+      'Sun - Wed': 'Dom - Mie'
+      'Sun - Thu': 'Dom - Jue'
+      'Sun - Fri': 'Dom - Vie'
+      'Sun - Sat': 'Dom - Sáb'
+      'Sun - Sun': 'Dom - Dom'
+
+      'Sat - Tue': 'Sáb - Mar'
+      'Sat - Wed': 'Sáb - Mie'
+      'Sat - Thu': 'Sáb - Jue'
+      'Sat - Fri': 'Sáb - Vie'
+
+      'Mon - Wed': 'Lun - Mie'
+      'Mon - Thu': 'Lun - Jue'
+      'Mon - Fri': 'Lun - Vie'
+
+      'Tue - Thu': 'Lun - Jue'
+      'Tue - Fri': 'Lun - Vie'
+
+      'Sun & Sat': 'Dom y Sáb'
+      'Sat & Mon': 'Sáb y Lun'
+      'Mon & Tue': 'Lun y Mar'
+      'Tue & Wed': 'Mar y Mie'
+      'Wed & Thu': 'Mie y Jue'
+      'Thu & Fri': 'Jue y Vie'
+
+      'Sun, Sat, Mon, Tue, Wed, Thu, Fri': 'Dom, Sáb, Lun, Mar, Mie, Jue, Vie'
+      'Sun, Sat, Mon, Tue, Wed, Thu': 'Dom, Sáb, Lun, Mar, Mie, Jue'
+      'Sun, Sat, Mon, Tue, Wed': 'Dom, Sáb, Lun, Mar, Mie'
+      'Sun, Sat, Mon, Tue': 'Dom, Sáb, Lun, Mar'
+      'Sun, Sat, Mon': 'Dom, Sáb, Lun'
+
