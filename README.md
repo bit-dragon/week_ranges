@@ -1,4 +1,4 @@
-# Tzolkin
+# Week ranges
 
 Gem to generate small description of range of weekdays like Monday to Friday, Monday and Tuesday or Monday, Thurday, Sunday
 
@@ -6,7 +6,7 @@ Gem to generate small description of range of weekdays like Monday to Friday, Mo
 
 Add this line to your application's Gemfile:
 
-    gem 'tzolkin'
+    gem 'week_ranges'
 
 And then execute:
 
@@ -14,13 +14,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install tzolkin
+    $ gem install week_ranges
 
 ## Usage
 
 Create a new Tzolkin::Days object
 
-		$ @days = Tzolkin::Days.new
+		$ @days = WeekDays::Days.new
 		
 Select the days that you want to know his shortcut range. The day start with **:day1 => 'Sunday'** and end with **:day7 => Saturday**
 
