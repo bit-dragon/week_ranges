@@ -20,7 +20,7 @@ Or install it yourself as:
 
 Create a new Tzolkin::Days object
 
-		$ @days = WeekDays::Days.new
+		$ @days = WeekRanges::Days.new
 		
 Select the days that you want to know his shortcut range. The day start with **:day1 => 'Sunday'** and end with **:day7 => Saturday**
 
